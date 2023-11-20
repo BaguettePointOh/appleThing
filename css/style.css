@@ -52,7 +52,11 @@ a{
 }
 .bigPhone{
     display: block;
+<<<<<<< HEAD
     width: 70%;
+=======
+    width: 75%;
+>>>>>>> cafdafbab34a0e5b86488e0328b9fcaed27e43a0
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
