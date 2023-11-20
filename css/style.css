@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+}
+header{
+    top: -16px;
+    left: 0px;
+    right: 0px;
+    height: 45px;
+}
+ul{
+    display: flex;
+    background-color: rgb(61, 61, 61);
+    list-style: none;
+    align-content: center;
+    margin: 0px;
+    padding: 0px;
+    height: 45px;
+    justify-content: center;
+}
+li{
+    padding: 20px;
+    align-self: center;
+    font-family: sans-serif;
+    color: white;
+}
+.smallLogo{
+    height: 20px;
+}
+main{
+    height: 5000px;
+}
+.iPhone11{
+    left: 0px;
+    right: 0px;
+}
+.iPhone11 img{   
+    height: 140px;
+    margin-left: calc(50vw - 70px);
+    margin-right: calc(50vw - 70px);
+}
