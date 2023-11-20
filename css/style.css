@@ -50,14 +50,9 @@ a{
 .thispieceofshitlinkwontcenter{
     text-align: center;
 }
-.IfIMust{
-    width: 70%;
-    margin-left: 25%;
-    margin-right: 25%;
-}
 .bigPhone{
     display: block;
-    width: 100%;
+    width: 70%;
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
