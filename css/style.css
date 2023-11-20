@@ -16,9 +16,10 @@ ul{
     padding: 0px;
     height: 45px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 li{
-    padding: 20px;
+    padding: 30px;
     align-self: center;
     font-family: sans-serif;
     color: white;
@@ -26,15 +27,116 @@ li{
 .smallLogo{
     height: 20px;
 }
-main{
-    height: 5000px;
-}
 .iPhone11{
     left: 0px;
     right: 0px;
+    font-family: sans-serif;
 }
-.iPhone11 img{   
-    height: 140px;
-    margin-left: calc(50vw - 70px);
-    margin-right: calc(50vw - 70px);
+.iPhone11 .logo{   
+    width: 60px;
+    margin-left: calc(50% - 30px);
+}
+.iPhone11 h1{
+    text-align: center;
+    font-size: 40px;
+}
+a{
+    color: rgb(61, 61, 255);
+    text-decoration: none;
+}
+.thispieceofshitlinkwontcenter{
+    text-align: center;
+}
+.IfIMust{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.bigPhone{
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.iPhonePro{
+    background-color: black;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.iPhonePro h1{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 40px;
+}
+.iPhonePro a{
+    font-size: 22px;
+    color: rgb(92, 92, 255);
+}
+.iPhonePro h2{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.iPhonePro p{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 15px;
+}
+.waterPhone{
+    display: block;
+    width: 50%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.grid div{
+    display: block;
+    background-color: rgb(247, 247, 247);
+    width: calc(50vw - 40px);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    font-family: sans-serif;
+    width: 900px;
+}
+.grid div h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.grid div h2{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 0px;
+}
+.grid div a{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.grid .thispieceofshitlinkwontcenter{
+    height: auto;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+.grid img{
+    width: 40%;
+    margin-left: 30%;
+    align-self: center;
 }
